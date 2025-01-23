@@ -60,7 +60,7 @@ const App = () => {
       </Helmet>
       {/* change vivian to current windows user name
       pass from vba */}
-      <Typography variant="h4" gutterBottom> {username} ,Welcome to my todo app</Typography>
+      <Typography variant="h4" gutterBottom> {username} ,Welcome to my todo app!</Typography>
       <form noValidate autoComplete="off" onSubmit={addTodo}>
         <TextField
           label="New Todo"
